@@ -1,0 +1,262 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+}
+
+#menu{
+    height: 80px;
+    padding: 0 20px;
+    background-color: rgb(240, 47, 127);
+}
+
+#logo{
+    font-size: 35px;
+    font-weight: 1000;
+    line-height: 80px;
+    color: white;
+    float: left;
+}
+
+nav{
+    float: right;
+    line-height: 80px;
+}
+
+nav a:link{
+    text-decoration: none;
+    margin-right: 25px;
+    color: rgb(255, 206, 223);
+}
+
+nav a:hover{
+    border-bottom: 2px solid white;
+}
+
+nav a:visited{
+    text-decoration: none;
+    margin-right: 25px;
+    color: rgb(255, 206, 223);;
+}
+
+.ikon{
+    margin-right: 7px;
+    font-size: 16px;
+}
+
+#anasayfa{
+    background-color: gray;
+    height: 600px;
+    background-image: url("img/pink.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#black{
+    height: 600px;
+    background-color: rgb(207, 92, 146);
+    opacity: 0.5;
+}
+
+#icerik{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+}
+
+#hakkimizda{
+    background-color: rgb(255, 225, 223);
+    padding: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 55px;
+    color: rgb(240, 47, 127);
+    font-weight: 600;
+
+}
+
+.container{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+
+#sol{
+    float: left;
+    border-right: 3px solid;
+    font-size: 30px;
+    width: 400px;
+
+}
+
+#h5sol{
+    line-height: 1.6;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#h5sol, #sag{
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+
+span{
+    font-size: 50px;
+    margin-right: 7px;
+    line-height: 42px;
+    font-weight: 600;
+    float: left;
+}
+
+#sag{
+    float: right;
+    width: 750px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 100;
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+.mt100{
+    margin-top: 100px;
+}
+
+#pson{
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-top: 30px;
+    font-weight: 100;
+}
+
+#egitimler{
+    background-color: rgb(255, 225, 223);
+    padding: 50px;
+    text-align: center;
+}
+
+.card{
+    width: 320px;
+    height: 350px;
+    border: 2px solid rgb(240, 47, 127);
+    padding: 0;
+    display: inline-block;
+}
+
+.card:hover{
+    border: 3px solid black;
+}
+
+.baslikcard{
+    font-size: 15px;
+    color: black;
+}
+
+.cardp{
+    color: rgb(34, 34, 34);
+}
+
+#ekip{
+    background-color: rgb(240, 47, 127);
+    padding: 50px;
+    height: 850px;
+    text-align: center;
+}
+
+#ekiph3{
+    color: rgb(255, 225, 223);
+}
+
+.sutun-sol-sag{
+    width: 385px;
+    float: left;
+    padding: 50px;
+}
+
+.oval{
+    border-radius: 100%;
+}
+
+.ekipisim{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+
+.ekipp{
+    color: rgb(255, 225, 223);
+    font-size: 15px;
+}
+
+.social{
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    width: 50px;
+    border-radius: 10px;
+    margin: 5px 10px;
+}
+
+.social:hover{
+    background-color:rgb(226, 187, 163);
+}
+
+.sutun{
+    width: 385px;
+    float: left;
+    padding: 40px;
+}
+
+#iletisim{
+    background-color: rgb(240, 47, 127);
+    padding: 50px;
+    height: auto;
+    text-align: center;
+}
+
+#h3iletisim{
+    color: white;
+}
+
+#iletisimopak{
+    background:rgba(255, 255, 255, 0.2) ;
+    padding: 30px 20px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    height: 550px;
+}
+
+#formgroup{
+    width: 700px;
+    float: left;
+    height: 500px;
+    text-align: left;
+}
+
+#solform{
+    width: 50%;
+    float: left;
+}
+
+#sagform{
+    width: 50%;
+    float: right;
+}
